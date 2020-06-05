@@ -645,7 +645,7 @@ function canvasApp() {
   	}
   
   	function searchColl() {
-		console.log("Fucking searchColl begin");
+		console.log("searchColl begin");
 		$('#animation').find(':submit')[0].disabled = true;
 		
 		
@@ -717,14 +717,13 @@ function canvasApp() {
   	}
   	
   	function anim() {
-  		console.log("Fucking anim begin");
+  		console.log("anim begin");
   		$('#animation').find(':submit')[0].disabled = true;
   		$('#initElem').find(':submit')[0].disabled = true;
   		$('#searchColl').find(':submit')[0].disabled = true;
   		$('#status').text('Animation started');
 	  	animIndex = 0;
 	  	animStep();// start actual animation
-	  	console.log("Fucking anim return");
   	}
  
 	$("#searchColl").submit(function(event) { searchColl(graph); return false; });

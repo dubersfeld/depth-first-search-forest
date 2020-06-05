@@ -93,8 +93,6 @@ public class DFSController {
 		HttpSession session = request.getSession();
 		DFSGraph graph = (DFSGraph)session.getAttribute("graph");
 				
-		System.out.println("searchGraph sator");
-		
 		// snapshots for display
 		List<JSONSnapshot> snapshots = new ArrayList<>();
 				
